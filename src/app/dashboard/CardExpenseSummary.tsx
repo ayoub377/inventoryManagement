@@ -35,7 +35,7 @@ const CardExpenseSummary = () => {
     const expenseSummary = dashboardMetrics?.expenseSummary[0];
 
     return (
-        <div className="row-span-3 bg-white shadow-md rounded-2xl flex flex-col justify-between">
+        <div className="row-span-4 bg-white shadow-md rounded-2xl flex flex-col justify-between">
             {isLoading ? (
                 <div className="m-5">Loading...</div>
             ) : (
